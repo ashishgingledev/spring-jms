@@ -1,0 +1,8 @@
+sales:
+  reportInterval: 10
+  pauseInterval: 50
+  listenerQueue: SALES.DETAILS.Q
+spring:
+  activemq:
+    broker-url: vm://localhost:1230
+    in-memory: true
