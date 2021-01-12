@@ -4,7 +4,7 @@ import lombok.*;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "sales")
-/*This ombok annoatation will generate Getter/Setter/ToString*/
+/*This lombok annoatation will generate Getter/Setter/ToString*/
 @Data
 public class SalesConfigurationProperties {
 
